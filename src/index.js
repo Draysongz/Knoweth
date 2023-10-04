@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { ChakraProvider } from '@chakra-ui/react'
 import {theme} from './chakra/theme'
+import './font.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

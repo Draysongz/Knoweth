@@ -9,6 +9,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import FaqPage from "./components/FaqPage";
 import Products from "./components/Products";
+import Adspy from "./components/Adspy/Adspy";
 
 
 
@@ -37,6 +38,7 @@ function App() {
         <Route path="/register" element={<Register/>} />
         <Route path='/faq' element={<FaqPage/>} />
         <Route path='/products' element={<Products/>} />
+        <Route path='/adspy' element={<Adspy/>} />
       </Routes>
     </BrowserRouter>
  
